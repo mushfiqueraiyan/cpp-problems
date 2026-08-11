@@ -10,7 +10,6 @@ int main(){
 
     cout << "How many elements do you want to insert" << MAX << "?";
     cin >> n;
-
     rear = n - 1;
 
     cout << "Enter " << n << " Elements: ";
