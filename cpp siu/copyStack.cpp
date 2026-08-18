@@ -40,8 +40,5 @@ cout << "Stack 1 elements: " << endl;
         cout << stack2[i] <<endl;
     }
 
-
-
-
     return 0;
 }
