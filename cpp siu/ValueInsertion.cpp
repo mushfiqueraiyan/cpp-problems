@@ -4,8 +4,12 @@ int main(){
 
     int marks[10] = {5,10,15,20};
     int n = 4;
-    int position = 3;
-    int value = 12;
+    int position;
+    cout << "Enter postion: ";
+    cin >> position;
+    int value;
+    cout << "Enter value: ";
+    cin>> value;
 
     for(int i = n; i >=position; i--){
         marks[i] = marks[i-1];

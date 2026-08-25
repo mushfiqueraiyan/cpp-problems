@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
 
@@ -12,7 +13,7 @@ int main (){
     cout << "Enter the number of elements of col: ";
     cin >> c;
 
-    int arr[r][c] = {0};
+    vector<vector<int>> arr(r, vector<int>(c,0));
 
     cout << "Input: " << endl;
     for(int i = 0; i < r; i++){
